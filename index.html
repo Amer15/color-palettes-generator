@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+    <title>Color Picker</title>
+</head>
+
+<body>
+    <main class="main-container">
+        <div class="alert-msg hide">Color <span id="color-code"></span> copied to your clipboard</div>
+        <h2>Color palette generator</h2>
+        <div class="colors-container">
+            <div class="color-box">
+                <div class="colors color-1"></div>
+                <p class="color name-1"></p>
+            </div>
+            <div class="color-box">
+                <div class="colors color-2"></div>
+                <p class="color name-2"></p>
+            </div>
+            <div class="color-box">
+                <div class="colors color-3"></div>
+                <p class="color name-3"></p>
+            </div>
+            <div class="color-box">
+                <div class="colors color-4"></div>
+                <p class="color name-4"></p>
+            </div>
+            <div class="color-box">
+                <div class="colors color-5"></div>
+                <p class="color name-5"></p>
+            </div>
+        </div>
+
+        <button class="btn">Generate Palette</button>
+        <p class="info">Click on card to copy color code</p>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
